@@ -1,15 +1,47 @@
 Body{
-    background: #000;
+    background: #000 !important;
+}
+
+.info{
+    width: 350px;
+    margin: 5px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info-btn{
+    width: 45px;
+    height: 45px;
+    border: none;
+    background: transparent;
+    font-size: 32px;
+    color: #ff9500;
+}
+
+.link{
+    text-decoration: none;
+    color: #fff;
+}
+
+.info-btn:active{
+    color: #8f5709;
+}
+
+.info-text{
+    width: 305px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 #p1{
     color: #817c7c;
     text-align: center;
-    font-size: 30px;
+    font-size: 24px;
     font-weight: bold;
     font-family: 'system-ui', sans-serif;
     margin: 0;
-    margin-bottom: 8px;
 }
 .game{
     display: flex;
@@ -21,28 +53,28 @@ Body{
     border: 3px dashed #6b6363;
 }
 
-.btn{
-    border: none;
-    color: #ff9500;
-    position: relative;
-    z-index: 10;
-    font-size: 64px;
-    background: transparent;
+.btn-css{
+    border: none !important;
+    color: #ff9500 !important;
+    position: relative !important;
+    z-index: 10 !important;
+    font-size: 64px !important;
+    background: transparent !important;
 }
 
 .btn:active{
-    color: #8f5709;
+    color: #8f5709 !important;
 }
 
 .buttons{
-    margin-top: 10px;
-    display: flex;
-    justify-content: center;
-    gap: 10px;
+    margin-top: 10px !important;
+    display: flex !important;
+    justify-content: center !important;
+    gap: 10px !important;
 }
 .buttons-c{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 25px;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    gap: 25px !important;
 }
