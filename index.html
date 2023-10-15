@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<body>
+    <p id="p1">Score: <span id="score"></span></p>
+    <div class="game">
+        <canvas id="canvas" width="350" height="350"></canvas>
+    </div>
+
+    <div class="buttons">
+        <button data-id="1" class="btn btn-1">
+            <i data-id="1" class="bi bi-arrow-left-circle-fill"></i>
+        </button>
+        <div class="buttons-c">
+            <button data-id="2" class="btn btn-2">
+                <i data-id="2" class="bi bi-arrow-up-circle-fill"></i>
+            </button>
+            <button data-id="3" class="btn btn-3">
+                <i data-id="3" class="bi bi-arrow-down-circle-fill"></i>
+            </button>
+        </div>
+        <button data-id="4" class="btn btn-4">
+            <i data-id="4" class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+    </div>
+
+<script src="./index.js"></script>
+
+</body>
+</html>
