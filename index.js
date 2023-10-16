@@ -116,6 +116,7 @@ function loop() {
 
                 data.forEach(item => {
                     if (item.userId == randId) {
+                        user.name = item.name;
                         if (item.count < snakeCount) {
                             // Delete
                             fetch(`https://6529995155b137ddc83f0695.mockapi.io/cyber/snake/${item.id}`, {
